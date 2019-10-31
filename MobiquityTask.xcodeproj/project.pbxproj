@@ -3,18 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6CC4E82DAC758DB42CE2DE5 /* Pods_MobiquityTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6838CE167D438A30DA698ED8 /* Pods_MobiquityTaskTests.framework */; };
 		EDA1E09D236A612F00B81C68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA1E09C236A612F00B81C68 /* AppDelegate.swift */; };
-		EDA1E09F236A612F00B81C68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA1E09E236A612F00B81C68 /* SceneDelegate.swift */; };
-		EDA1E0A1236A612F00B81C68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA1E0A0236A612F00B81C68 /* ViewController.swift */; };
 		EDA1E0A4236A612F00B81C68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA1E0A2236A612F00B81C68 /* Main.storyboard */; };
 		EDA1E0A7236A612F00B81C68 /* MobiquityTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDA1E0A5236A612F00B81C68 /* MobiquityTask.xcdatamodeld */; };
 		EDA1E0A9236A613100B81C68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA1E0A8236A613100B81C68 /* Assets.xcassets */; };
 		EDA1E0AC236A613100B81C68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA1E0AA236A613100B81C68 /* LaunchScreen.storyboard */; };
 		EDA1E0B7236A613100B81C68 /* MobiquityTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA1E0B6236A613100B81C68 /* MobiquityTaskTests.swift */; };
+		FE0EB7125043604691943DB1 /* Pods_MobiquityTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17271A59EB755B446C789D93 /* Pods_MobiquityTask.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +28,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17271A59EB755B446C789D93 /* Pods_MobiquityTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobiquityTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5B35DDE2C2273692AE8E58 /* Pods-MobiquityTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiquityTask.release.xcconfig"; path = "Target Support Files/Pods-MobiquityTask/Pods-MobiquityTask.release.xcconfig"; sourceTree = "<group>"; };
+		460527B69266970EB4202752 /* Pods-MobiquityTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiquityTaskTests.release.xcconfig"; path = "Target Support Files/Pods-MobiquityTaskTests/Pods-MobiquityTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		6838CE167D438A30DA698ED8 /* Pods_MobiquityTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobiquityTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D37C3DB741823E18E8D51BE /* Pods-MobiquityTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiquityTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-MobiquityTaskTests/Pods-MobiquityTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7654E6671A5FD16954B7C4A /* Pods-MobiquityTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiquityTask.debug.xcconfig"; path = "Target Support Files/Pods-MobiquityTask/Pods-MobiquityTask.debug.xcconfig"; sourceTree = "<group>"; };
 		EDA1E099236A612F00B81C68 /* MobiquityTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobiquityTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA1E09C236A612F00B81C68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EDA1E09E236A612F00B81C68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EDA1E0A0236A612F00B81C68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EDA1E0A3236A612F00B81C68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDA1E0A6236A612F00B81C68 /* MobiquityTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MobiquityTask.xcdatamodel; sourceTree = "<group>"; };
 		EDA1E0A8236A613100B81C68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE0EB7125043604691943DB1 /* Pods_MobiquityTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +59,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6CC4E82DAC758DB42CE2DE5 /* Pods_MobiquityTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35B94D97D29EFCCB0F5A2574 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7654E6671A5FD16954B7C4A /* Pods-MobiquityTask.debug.xcconfig */,
+				2B5B35DDE2C2273692AE8E58 /* Pods-MobiquityTask.release.xcconfig */,
+				8D37C3DB741823E18E8D51BE /* Pods-MobiquityTaskTests.debug.xcconfig */,
+				460527B69266970EB4202752 /* Pods-MobiquityTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		68771803C79A409B54070B07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17271A59EB755B446C789D93 /* Pods_MobiquityTask.framework */,
+				6838CE167D438A30DA698ED8 /* Pods_MobiquityTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EDA1E090236A612F00B81C68 = {
 			isa = PBXGroup;
 			children = (
 				EDA1E09B236A612F00B81C68 /* MobiquityTask */,
 				EDA1E0B5236A613100B81C68 /* MobiquityTaskTests */,
 				EDA1E09A236A612F00B81C68 /* Products */,
+				35B94D97D29EFCCB0F5A2574 /* Pods */,
+				68771803C79A409B54070B07 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,14 +109,13 @@
 		EDA1E09B236A612F00B81C68 /* MobiquityTask */ = {
 			isa = PBXGroup;
 			children = (
-				EDA1E09C236A612F00B81C68 /* AppDelegate.swift */,
-				EDA1E09E236A612F00B81C68 /* SceneDelegate.swift */,
-				EDA1E0A0236A612F00B81C68 /* ViewController.swift */,
-				EDA1E0A2236A612F00B81C68 /* Main.storyboard */,
-				EDA1E0A8236A613100B81C68 /* Assets.xcassets */,
-				EDA1E0AA236A613100B81C68 /* LaunchScreen.storyboard */,
-				EDA1E0AD236A613100B81C68 /* Info.plist */,
-				EDA1E0A5236A612F00B81C68 /* MobiquityTask.xcdatamodeld */,
+				EDA1E0C7236A689500B81C68 /* Application */,
+				EDA1E0C3236A686200B81C68 /* Coordinators */,
+				EDA1E0C6236A688000B81C68 /* Common */,
+				EDA1E0C5236A687300B81C68 /* Modules */,
+				EDA1E0C4236A686F00B81C68 /* Models */,
+				EDA1E0C2236A685700B81C68 /* Storyboards */,
+				EDA1E0C1236A684000B81C68 /* SupportFiles */,
 			);
 			path = MobiquityTask;
 			sourceTree = "<group>";
@@ -102,6 +129,61 @@
 			path = MobiquityTaskTests;
 			sourceTree = "<group>";
 		};
+		EDA1E0C1236A684000B81C68 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				EDA1E0A5236A612F00B81C68 /* MobiquityTask.xcdatamodeld */,
+				EDA1E0A8236A613100B81C68 /* Assets.xcassets */,
+				EDA1E0AD236A613100B81C68 /* Info.plist */,
+				EDA1E0AA236A613100B81C68 /* LaunchScreen.storyboard */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		EDA1E0C2236A685700B81C68 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EDA1E0A2236A612F00B81C68 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		EDA1E0C3236A686200B81C68 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		EDA1E0C4236A686F00B81C68 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EDA1E0C5236A687300B81C68 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		EDA1E0C6236A688000B81C68 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		EDA1E0C7236A689500B81C68 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EDA1E09C236A612F00B81C68 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDA1E0BB236A613100B81C68 /* Build configuration list for PBXNativeTarget "MobiquityTask" */;
 			buildPhases = (
+				683B7D9084ED333FCE36618E /* [CP] Check Pods Manifest.lock */,
 				EDA1E095236A612F00B81C68 /* Sources */,
 				EDA1E096236A612F00B81C68 /* Frameworks */,
 				EDA1E097236A612F00B81C68 /* Resources */,
+				2CB5DD82F393304FFE67DA50 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDA1E0BE236A613100B81C68 /* Build configuration list for PBXNativeTarget "MobiquityTaskTests" */;
 			buildPhases = (
+				1F78D2435F797BAFA416F246 /* [CP] Check Pods Manifest.lock */,
 				EDA1E0AE236A613100B81C68 /* Sources */,
 				EDA1E0AF236A613100B81C68 /* Frameworks */,
 				EDA1E0B0236A613100B81C68 /* Resources */,
@@ -198,15 +283,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F78D2435F797BAFA416F246 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobiquityTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CB5DD82F393304FFE67DA50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobiquityTask/Pods-MobiquityTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobiquityTask/Pods-MobiquityTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobiquityTask/Pods-MobiquityTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		683B7D9084ED333FCE36618E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobiquityTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EDA1E095236A612F00B81C68 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EDA1E0A7236A612F00B81C68 /* MobiquityTask.xcdatamodeld in Sources */,
-				EDA1E0A1236A612F00B81C68 /* ViewController.swift in Sources */,
 				EDA1E09D236A612F00B81C68 /* AppDelegate.swift in Sources */,
-				EDA1E09F236A612F00B81C68 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,11 +511,12 @@
 		};
 		EDA1E0BC236A613100B81C68 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7654E6671A5FD16954B7C4A /* Pods-MobiquityTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4GK555R9K9;
-				INFOPLIST_FILE = MobiquityTask/Info.plist;
+				INFOPLIST_FILE = MobiquityTask/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -382,11 +530,12 @@
 		};
 		EDA1E0BD236A613100B81C68 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B5B35DDE2C2273692AE8E58 /* Pods-MobiquityTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4GK555R9K9;
-				INFOPLIST_FILE = MobiquityTask/Info.plist;
+				INFOPLIST_FILE = MobiquityTask/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -400,6 +549,7 @@
 		};
 		EDA1E0BF236A613100B81C68 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D37C3DB741823E18E8D51BE /* Pods-MobiquityTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -422,6 +572,7 @@
 		};
 		EDA1E0C0236A613100B81C68 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 460527B69266970EB4202752 /* Pods-MobiquityTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

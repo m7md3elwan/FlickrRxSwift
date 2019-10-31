@@ -1,0 +1,50 @@
+PODS:
+  - Alamofire (4.9.0)
+  - Differentiator (4.0.1)
+  - IQKeyboardManagerSwift (6.5.2)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
+  - XCoordinator (2.0.5):
+    - XCoordinator/Core (= 2.0.5)
+  - XCoordinator/Core (2.0.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - IQKeyboardManagerSwift
+  - RxCocoa
+  - RxDataSources
+  - RxSwift
+  - XCoordinator
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Differentiator
+    - IQKeyboardManagerSwift
+    - RxCocoa
+    - RxDataSources
+    - RxRelay
+    - RxSwift
+    - XCoordinator
+
+SPEC CHECKSUMS:
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  IQKeyboardManagerSwift: c75366f1f19590e8caeae45fcd5815c9289d6099
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  XCoordinator: 0a0591f1756245d5861fe20660ca680bfac9d027
+
+PODFILE CHECKSUM: f8efe7f39480ce2451511d0414d9b3f929a129c9
+
+COCOAPODS: 1.8.1

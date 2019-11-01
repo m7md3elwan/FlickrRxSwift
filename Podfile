@@ -10,7 +10,7 @@ target 'MobiquityTask' do
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'RxDataSources'
-
+  pod 'RxCoreData'
   pod 'IQKeyboardManagerSwift'
  
   pod 'XCoordinator'

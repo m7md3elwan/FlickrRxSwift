@@ -8,8 +8,11 @@
 
 import Foundation
 import XCoordinator
+import RxSwift
+import RxCocoa
 
 enum AppStartUpRoute: Route {
-    case gallery(searchText: String)
-    case search
+    case gallery
+    case search(searchObserver: BehaviorRelay<String>)
+    case endSearch
 }

@@ -21,9 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         IQKeyboardManager.shared.enable = true
 
         router.setRoot(for: mainWindow)
-        router.trigger(.gallery(searchText: "")) { [unowned self] in
-            self.router.trigger(.search)
-        }
+        router.trigger(.gallery)
 
         return true
     }

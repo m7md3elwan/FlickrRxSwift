@@ -11,16 +11,16 @@ import RxCocoa
 import RxSwift
 
 class SearchTermsViewController: BaseViewController, BindableType {
-
+    
     // MARK:- Constants
     struct Constants {
         static let cellIdentifier = "SearchTermTableViewCell"
     }
-
+    
     // MARK:- Properties
     private let disposeBag = DisposeBag()
     var viewModel: SearchTermsViewModelType!
-
+    
     // MARK:- Outlets
     @IBOutlet var searchTextField: UITextField!
     @IBOutlet var historyTableView: UITableView!
@@ -33,13 +33,19 @@ class SearchTermsViewController: BaseViewController, BindableType {
     }
     
     // MARK:- Methods
-    func bindViewModel() {        
-        searchTextField.rx.controlEvent([.editingDidEnd]).map{ self.searchTextField.text ?? "" }.bind(to: viewModel.input.searchTrigger).disposed(by: disposeBag)
-        searchTextField.rx.text.orEmpty.map{ $0 }.asObservable().bind(to: viewModel.input.searchText ).disposed(by: disposeBag)
+    func bindViewModel() {
+        let viewDidAppear =  rx.sentMessage(#selector(UIViewController.viewDidAppear(_:))).take(1).map{ _ in "" }
+        let textChange = searchTextField.rx.text.orEmpty.map{ $0 }
+        Observable.merge(viewDidAppear, textChange).bind(to: viewModel.input.searchText).disposed(by: disposeBag)
+
+        let textSelect =  historyTableView.rx.modelSelected(String.self).asObservable()
+        let searchFieldEnd = searchTextField.rx.controlEvent([.editingDidEnd]).map{ self.searchTextField.text ?? "" }
+        Observable.merge(searchFieldEnd, textSelect).bind(to: viewModel.input.searchTrigger).disposed(by: disposeBag)
         
         viewModel.output.searchHistory.drive(historyTableView.rx.items(cellIdentifier: Constants.cellIdentifier, cellType: SearchTermTableViewCell.self)) { tableview, viewModel, cell in
             cell.configure(text: viewModel)
         }.disposed(by: disposeBag)
+        
     }
     
     fileprivate func setupTableView() {

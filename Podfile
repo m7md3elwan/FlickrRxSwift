@@ -14,7 +14,11 @@ target 'MobiquityTask' do
   pod 'IQKeyboardManagerSwift'
  
   pod 'XCoordinator'
-
+  pod 'Kingfisher'
+  pod 'SwiftMessages', '5.0.0'
+  
+  pod 'UIScrollView-InfiniteScroll'
+  
   target 'MobiquityTaskTests' do
     inherit! :search_paths
     # Pods for testing

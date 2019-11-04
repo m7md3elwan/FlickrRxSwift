@@ -23,10 +23,15 @@ class SearchTermsViewModel: SearchTermsViewModelType, SearchTermsViewModelInput,
     var router: UnownedRouter<AppStartUpRoute>
     var searchHistoryService: SearchHistoryServicing
     
+    // MARK:- External Inputs
+    var searchObserver: BehaviorRelay<String>
+    
     // MARK:- Initialization
-    init(service: SearchHistoryServicing, router: UnownedRouter<AppStartUpRoute>) {
+    init(service: SearchHistoryServicing, router: UnownedRouter<AppStartUpRoute>, searchObserver: BehaviorRelay<String>) {
         self.searchHistoryService = service
         self.router = router
+        
+        self.searchObserver = searchObserver
         
         let _searchText = PublishSubject<String>()
         self.searchText = _searchText.asObserver()
@@ -42,6 +47,8 @@ class SearchTermsViewModel: SearchTermsViewModelType, SearchTermsViewModelInput,
             .filter{ !$0.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines).isEmpty }
             .subscribe(onNext: { (text) in
             _ = service.addSearchTerm(text: text)
+            searchObserver.accept(text)
+                router.trigger(AppStartUpRoute.endSearch)
         })
     }
     

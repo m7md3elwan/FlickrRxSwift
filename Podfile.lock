@@ -1,0 +1,76 @@
+PODS:
+  - Alamofire (4.9.0)
+  - Differentiator (4.0.1)
+  - GeometricLoaders (1.1.1)
+  - IQKeyboardManagerSwift (6.5.2)
+  - Kingfisher (5.9.0):
+    - Kingfisher/Core (= 5.9.0)
+  - Kingfisher/Core (5.9.0)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxCoreData (1.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
+  - SwiftMessages (5.0.0):
+    - SwiftMessages/App (= 5.0.0)
+  - SwiftMessages/App (5.0.0)
+  - UIScrollView-InfiniteScroll (1.1.0)
+  - XCoordinator (2.0.5):
+    - XCoordinator/Core (= 2.0.5)
+  - XCoordinator/Core (2.0.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - GeometricLoaders
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - RxCocoa
+  - RxCoreData
+  - RxDataSources
+  - RxSwift
+  - SwiftMessages (= 5.0.0)
+  - UIScrollView-InfiniteScroll
+  - XCoordinator
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Differentiator
+    - GeometricLoaders
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - RxCocoa
+    - RxCoreData
+    - RxDataSources
+    - RxRelay
+    - RxSwift
+    - SwiftMessages
+    - UIScrollView-InfiniteScroll
+    - XCoordinator
+
+SPEC CHECKSUMS:
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  GeometricLoaders: 4fbbeb569cf0ea647c620a9ffb87c9e63812e743
+  IQKeyboardManagerSwift: c75366f1f19590e8caeae45fcd5815c9289d6099
+  Kingfisher: ff98240aebb7302bdc4f1ecd701761030ce18b16
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxCoreData: 1ed5f83e80facccc90fc054eb7f39a44177de56a
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  SwiftMessages: 342d312bf8d5ac11141285c8fec6308380df7f72
+  UIScrollView-InfiniteScroll: 3ef456bcbe759c19f510a383cff96e6647c98c98
+  XCoordinator: 0a0591f1756245d5861fe20660ca680bfac9d027
+
+PODFILE CHECKSUM: 90815fa4e33c5bc87eb45406844b50e003b30ebf
+
+COCOAPODS: 1.8.1
